@@ -52,6 +52,7 @@ body {
       figure {
         img {
           border-radius: 10px 0 0 10px;
+          filter: brightness(90%);
           width: 100%;
           height: auto;
           
@@ -72,8 +73,9 @@ body {
       .product__cats {
         span {
           font-family: $font-monserrat;
-          text-transform: uppercase;
           font-size: $paragraph-size;
+          letter-spacing: 0.2em;
+          text-transform: uppercase;
         }
       }
 
@@ -81,24 +83,28 @@ body {
         h1 {
           color: #000;
           font-family: $font-fraunces;
-          line-height: 30px;
+          line-height: 32px;
         }
       }
 
       .product__description {
+        margin-bottom: 26px;
         p {
           font-size: $paragraph-size;
+          line-height: 22px;
         }
       }
 
       .product__price {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        
         span:nth-child(1) {
           color: $dark-cyan;
           font-family: $font-fraunces;
-          font-size: 30px;
+          font-size: 32px;
           margin-right: 20px;
         }
 
@@ -116,7 +122,6 @@ body {
         border: none;
         border-radius: 10px;
         color: $white;
-        // filter: drop-shadow(2px 2px 5px #000);
         outline: none;
         padding: 15px;
         width: 100%;
