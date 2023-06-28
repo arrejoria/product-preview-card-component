@@ -1,5 +1,5 @@
 // Imports
-@import url("https://fonts.googleapis.com/css2?family=Fraunces&family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
 
 // Variables
 // - Mobile: 375px
@@ -30,6 +30,7 @@ $font-monserrat: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 body {
+  font-size: 14px;
   background-color: $cream;
   font-family: $font-monserrat;
 }
@@ -63,14 +64,13 @@ body {
     .product__content-description {
       background-color: $white;
       color: $dark-grayish-blue;
-      padding: 30px;
+      padding: 1.9rem 1.8rem;
       border-radius: 0 10px 10px 0;
 
       .product__cats {
-        span {
-          font-family: $font-monserrat;
-          font-size: $paragraph-size;
-          letter-spacing: 0.2em;
+        text {
+          font-size: 14px;
+          letter-spacing: 0.2rem;
           text-transform: uppercase;
         }
       }
@@ -79,17 +79,18 @@ body {
         h1 {
           color: #000;
           font-family: $font-fraunces;
+          font-size: 2rem;
           font-weight: 800;
-          line-height: 32px;
-          margin: 22px 0;
+          line-height: 2rem;
+          margin: 20px 0;
         }
       }
 
       .product__description {
-        margin-bottom: 26px;
+        margin-bottom: 1.6rem;
         p {
           font-size: $paragraph-size;
-          line-height: 20px;
+          line-height: 1.4rem;
         }
       }
 
@@ -97,7 +98,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.4rem;
         
         span:nth-child(1) {
           color: $dark-cyan;

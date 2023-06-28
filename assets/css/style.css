@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
 /**
  * Component Styles Starts Here:
  */
@@ -11,6 +11,7 @@
 }
 
 body {
+  font-size: 14px;
   background-color: hsl(30deg, 38%, 92%);
   font-family: "Montserrat", sans-serif;
 }
@@ -40,34 +41,34 @@ body {
 .main__container .product__container .product__content-description {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(228deg, 12%, 48%);
-  padding: 30px;
+  padding: 1.9rem 1.8rem;
   border-radius: 0 10px 10px 0;
 }
-.main__container .product__container .product__content-description .product__cats span {
-  font-family: "Montserrat", sans-serif;
+.main__container .product__container .product__content-description .product__cats text {
   font-size: 14px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 .main__container .product__container .product__content-description .product__title h1 {
   color: #000;
   font-family: "Fraunces", serif;
+  font-size: 2rem;
   font-weight: 800;
-  line-height: 32px;
-  margin: 22px 0;
+  line-height: 2rem;
+  margin: 20px 0;
 }
 .main__container .product__container .product__content-description .product__description {
-  margin-bottom: 26px;
+  margin-bottom: 1.6rem;
 }
 .main__container .product__container .product__content-description .product__description p {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.4rem;
 }
 .main__container .product__container .product__content-description .product__price {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
 }
 .main__container .product__container .product__content-description .product__price span:nth-child(1) {
   color: hsl(158deg, 36%, 37%);
