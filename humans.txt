@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* Team */
+Developer: Lucas Exequiel Arrejoria
+Designer: Frontend Mentor
+
+/* Contact*/
+Email: arrejoria.work@gmail.com
+LinkedIn: https://www.LinkedIn.com/in/arr-dev
+
+/* technology */
+
+Javascript - SASS - Bootstrap - HTML

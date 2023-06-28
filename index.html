@@ -1,35 +1,64 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <link rel="manifest" href="site.webmanifest">
+  <meta charset="UTF-8">
+  <meta name="description" content="Maquetación de componente para producto en formato desktop y mobile." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta property="og:title" content="Product preview card component">
+  <meta property="og:type" content="Component">
+  <meta property="og:url" content="https://website">
+  <meta property="og:image" content="https://website/assets/images/image-product-mobile.jpb">
   <meta name="theme-color" content="#fafafa">
-</head>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.12.0.min.js"></script>
-  <script src="js/app.js"></script>
+  <main class="main__container">
+    <section class="d-flex product__container">
+      <article class="col-12 col-md-6 col-lg-6 product__content-image">
+        <figure class="m-0">
+          <img src="assets/images/image-product-desktop.jpg" alt="Product image">
+        </figure>
+      </article>
 
+      <article class="col-12 col-md-6 col-lg-6 product__content-description">
+        <div class="product__cats"><span>Perfume</span></div>
+        <div class="product__title"><h1>Gabrielle Essence Eau De Parfum</h1></div>
+        <div class="product__description"><p>A floral, solar and voluptuous interpretation composed by Olivier polge, Perfumer-Creator for the house of CHANEL.</p></div>
+        <div class="product__price"><span>$149.99</span><span>$169.99</span></div>
+        <button class="product__button"><img src="assets/images/icon-cart.svg" alt="Add to Cart Icon"> Add to Cart</button>
+      </article>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/arrejoria">Lucas E.</a>.
+  </div>
+  <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
-
 </html>
