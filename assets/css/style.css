@@ -58,6 +58,7 @@ body {
   color: #000;
   font-family: "Fraunces", serif;
   line-height: 32px;
+  margin: 22px 0;
 }
 .main__container .product__container .product__content-description .product__description {
   margin-bottom: 26px;
