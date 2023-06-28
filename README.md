@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges helps to improve coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -13,8 +13,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 Product Preview Card is a component builded with HTML, SASS and Bootstrap. I used bootstrap for the responsive part for containers and contents in this component and compiling sass to speed my work my CSS styles.
