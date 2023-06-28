@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&family=Montserrat&display=swap");
 /**
  * Component Styles Starts Here:
  */
@@ -16,26 +16,21 @@ body {
 }
 
 .main__container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+  width: 100vw;
+  min-height: 100vh;
 }
 .main__container .product__container {
-  margin: 0 auto;
+  overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: auto;
   max-width: 600px;
-  max-height: 450px;
 }
 .main__container .product__container .product__content-image figure img {
   border-radius: 10px 0 0 10px;
-  filter: brightness(90%);
   width: 100%;
   height: auto;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .main__container .product__container .product__content-image figure img {
     border-radius: 10px 10px 0 0;
     object-fit: cover;
@@ -57,6 +52,7 @@ body {
 .main__container .product__container .product__content-description .product__title h1 {
   color: #000;
   font-family: "Fraunces", serif;
+  font-weight: 800;
   line-height: 32px;
   margin: 22px 0;
 }
@@ -65,18 +61,19 @@ body {
 }
 .main__container .product__container .product__content-description .product__description p {
   font-size: 14px;
-  line-height: 22px;
+  line-height: 20px;
 }
 .main__container .product__container .product__content-description .product__price {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 1.2rem;
 }
 .main__container .product__container .product__content-description .product__price span:nth-child(1) {
   color: hsl(158deg, 36%, 37%);
   font-family: "Fraunces", serif;
   font-size: 32px;
+  font-weight: 700;
   margin-right: 20px;
 }
 .main__container .product__container .product__content-description .product__price span:nth-child(2) {
@@ -91,6 +88,7 @@ body {
   border: none;
   border-radius: 10px;
   color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
   outline: none;
   padding: 15px;
   width: 100%;
@@ -98,17 +96,14 @@ body {
 .main__container .product__container .product__content-description .product__button:active {
   background-color: #1a4131;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .main__container .product__container .product__content-description {
     border-radius: 0 0px 10px 10px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .main__container {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    transform: none;
+    padding: 1rem;
   }
 }
 
