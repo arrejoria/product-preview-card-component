@@ -32,6 +32,7 @@ body {
 .main__container .product__container .product__content-image figure img {
   border-radius: 10px 0 0 10px;
   width: 100%;
+  height: auto;
 }
 @media (max-width: 375px) {
   .main__container .product__container .product__content-image figure img {
